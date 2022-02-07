@@ -1,3 +1,4 @@
+/*disabling gravity so program will run
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 public class Gravity : MonoBehaviour
 {
     // Start is called before the first frame update
+	// In the example it looks like the "public float through float velocity lines are here, but when I tried to move them it made more errors
     void Start()
     {
         
@@ -29,3 +31,4 @@ public class Gravity : MonoBehaviour
     }
 
 }
+*/
