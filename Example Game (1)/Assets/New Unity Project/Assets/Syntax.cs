@@ -11,18 +11,23 @@ public class Syntax : MonoBehaviour
         
         /* Hello there!
          *General Kenobi!
-         * */
-        Debug.Log(transform.position.x);
-
-        if (transform.position.y <= 5f)
-        {
-            Debug.Log("i'm about to hit the ground!");
-        }
-    }
+         * */}
 
     // Update is called once per frame
     void Update()
     {
-        
+        print(transform.position.y);
+        if (transform.position.y <= 5f)
+        {
+            print("i'm about to hit the ground!");
+        }
+		else if (transform.position.y <=2.5f) 
+		{
+			print ("AAAAAAAAAAAAAHHHHHHHHHHHHHHH");
+		}
+		else
+		{
+			print("I'm fine... yeah... I'm... Fine...");
+		}
     }
 }
