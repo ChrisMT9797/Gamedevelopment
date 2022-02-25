@@ -24,10 +24,11 @@ public class VarNOpp : MonoBehaviour
 		int sum1 = num1 + num2;
 		int sum2 = num2 + num3 + num4;
 		int sum3 = num1 + num4 + num5;
+		//string rname1 = name1 + char1;
 		print(sum1); // Print the sum of x+y
 		print(sum2);
 		print(sum3);
-		//print (name1 + char1);
+		//print(rname1);
     }
 
     // Update is called once per frame
